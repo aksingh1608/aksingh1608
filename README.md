@@ -1,16 +1,3 @@
-<!--
-  ============================================================
-   GITHUB PROFILE README
-  ------------------------------------------------------------
-  This file shows on your profile page (github.com/aksingh1608)
-  ONLY if it lives in a special repo named exactly after your
-  username:
-
-      Repo name:  aksingh1608   (must match your username)
-      File name:  README.md     (at the root of that repo)
-
-  Everywhere you see  👉 EDIT  is a spot to add your own info.
-  Delete these <!-- comment --> notes once you're done.
 <h1 align="center">Hi, I'm Aryan Kumar Singh 👋</h1>
 
 <!-- 👉 EDIT: your one-line tagline. Make it sound like you. -->
