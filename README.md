@@ -11,9 +11,6 @@
 
   Everywhere you see  👉 EDIT  is a spot to add your own info.
   Delete these <!-- comment --> notes once you're done.
-  ============================================================
--->
-
 <h1 align="center">Hi, I'm Aryan Kumar Singh 👋</h1>
 
 <!-- 👉 EDIT: your one-line tagline. Make it sound like you. -->
