@@ -2,14 +2,15 @@
 
 # Aryan Kumar Singh
 
-**Applied ML engineer · I build and ship AI systems**
+**AI and machine learning researcher and engineer**
 
-Offline speech translation, voice agents, job automation, developer tooling.<br>
-Most of it is open source. All of it runs.
+Multimodal health data, time series, deep learning, reinforcement learning, embodied AI.<br>
+I develop models, test them with statistics, and ship them. Most of it is open source.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-1A73E8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bewithaksingh.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aksingh06/)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=IHw9I1cAAAAJ&hl=en)
+[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0003-8791-1869)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aksingh5114@gmail.com)
 
 </div>
@@ -18,89 +19,113 @@ Most of it is open source. All of it runs.
 
 ## About
 
-- MSc Artificial Intelligence at Berlin School of Business and Innovation, Berlin
-- I build things that run on their own: on device models, voice agents, scrapers, schedulers
-- Background in production LLM and RAG systems, plus full stack work
-- Side interest: robots. I train RL policies for motion and control in ROS 2 and MuJoCo
-- Based in Berlin, Germany
+- MSc Artificial Intelligence, Berlin School of Business and Innovation. Thesis on reinforcement learning for robot motion and control in ROS 2 and MuJoCo, supervised by Dr. Fahmid Al Farid
+- Three years in production machine learning and LLM systems before the MSc
+- Two IEEE papers in 2024, one as first author on home health monitoring for early stroke prediction
+- Founder of Barycenter Lab, a self funded lab for embodied AI. First product: Kiko, a companion robot
+- Based in Berlin, Germany. Full time from February 2027
 
 ---
 
-## What I Build
+## Research
 
-<div align="center">
+**NeuroPrism: Explainable Brain Health AI** · in progress, open source soon<br>
+A multimodal framework that reads EEG, facial behaviour, speech and interview text to find markers of depression, ADHD and related conditions across five public clinical datasets. An EEG transformer pretrained on 26,000 plus clinical recordings and fine tuned on 1,274 subjects. A grounded language model turns feature attributions into plain language clinical reports.
 
-![On Device AI](https://img.shields.io/badge/On_Device_AI-1E293B?style=flat-square)
-![Voice AI](https://img.shields.io/badge/Voice_AI-1E293B?style=flat-square)
-![AI Agents](https://img.shields.io/badge/AI_Agents-1E293B?style=flat-square)
-![Automation](https://img.shields.io/badge/Automation-1E293B?style=flat-square)
-![Developer Tools](https://img.shields.io/badge/Developer_Tools-1E293B?style=flat-square)
-![Full Stack](https://img.shields.io/badge/Full_Stack-1E293B?style=flat-square)
-![Robot Learning](https://img.shields.io/badge/Robot_Learning-1E293B?style=flat-square)
+**[kkt-forecast-combination](https://github.com/aksingh1608/kkt-forecast-combination)** · Apache 2.0<br>
+Convex forecast combination and sparsity via KKT boundaries. 23 forecasting models, 5 energy time series datasets, 2 protocols, with Diebold-Mariano, Friedman and Nemenyi tests and effect sizes. The theory explains when the ensemble collapses onto tree learners. Code, results and figures for the paper in preparation with Dr. Fahmid Al Farid.
 
-</div>
+**Publications**<br>
+First author, [Continuous Health Monitoring for Early Stroke Prediction at Home](https://ieeexplore.ieee.org/document/10739284), IEEE ICEECT 2024<br>
+Co-author, [An Effective Approaches for Auto Bill Generator System](https://ieeexplore.ieee.org/document/10738927), IEEE ICEECT 2024
 
 ---
 
-## Projects
+## Embodied AI and Barycenter Lab
 
-**[Dragoman](https://github.com/aksingh1608/Dragoman)**
-An offline bilingual speech translator, German and English, both ways. Built for a warehouse counter where there is no reliable internet and no time to type. Runs on Termux on an aarch64 Android phone or on a Linux laptop, with whisper.cpp for speech and a local llama server for translation, joined by a small FastAPI bridge. No cloud, no API keys.
+Barycenter Lab is a self funded lab I started with two collaborators and two professors as mentors. No institution, no grant. We buy the parts, print the bodies and write the code ourselves. The long view: how people and robots can live and work together.
 
-**[AI-Interviewer](https://github.com/aksingh1608/AI-Interviewer)**
-A voice based technical interviewer. A candidate drops in their GitHub profile, then has a live spoken conversation with an interviewer that already knows their background, and gets an instant score with feedback. TypeScript, MIT licensed.
+**Kiko** · hardware build in progress<br>
+A companion robot that lives with its owner. It fuses camera, voice and touch input on an NVIDIA Jetson with ROS 2, follows its owner, talks, shows moods on an LCD face, and raises a camera mast to record reels. I lead the AI and computer vision side. We will record our own owner interaction dataset in home tests. Code in `kiki-v1`, team workspace in `kiko-hq`, site in `barycenterlab` (private while in build).
 
-**[jobtrawl](https://github.com/aksingh1608/jobtrawl)**
-A job scraper that finds its own sources. It discovers research and student assistant postings across Germany and EU remote, scores them, and emails a ranked Excel sheet every morning. Python and Crawl4AI. MIT licensed.
+**[Apex](https://github.com/aksingh1608/Apex)**<br>
+An interactive PyBullet environment with object semantics, and a goal oriented autonomous racing robot with monitoring in ROS 2.
 
-**Purser**
-A local console that meters, caps and audits coding agents in one place. An append only hash chained token ledger, a budget governor with warn, prompt or hard stop, and a tamper evident audit log you can verify from the CLI. Works with Claude Code, Codex, Cursor CLI, Gemini CLI, Ollama and OpenAI compatible endpoints. Runs on your machine, bound to loopback. Apache 2.0.
+**[turtlebot3-beacon](https://github.com/aksingh1608/turtlebot3-beacon)**<br>
+ROS 2 work on the TurtleBot3 platform.
 
-**[kkt-forecast-combination](https://github.com/aksingh1608/kkt-forecast-combination)**
-Convex forecast combination and sparsity via KKT boundaries. A benchmark of 23 forecasting models across 5 energy datasets under two protocols, with the theory that explains when the ensemble collapses onto tree learners. Code and artefacts for the IEEE Transactions on Smart Grid submission. Apache 2.0.
+**[microduck](https://github.com/aksingh1608/microduck)**<br>
+A tiny biped duck robot I am working through in Rust.
 
-**[Robotics-Learning-](https://github.com/aksingh1608/Robotics-Learning-)**
-The teaching material for my live robotics course. Python fundamentals through OOP, NumPy, Pandas and plotting, with every example built on robots, sensors and lab workflows instead of toy data.
+**[Robotics-Learning-](https://github.com/aksingh1608/Robotics-Learning-)**<br>
+Teaching material for my live robotics course. Python fundamentals through OOP, NumPy, Pandas and plotting, with every example built on robots, sensors and lab workflows.
+
+---
+
+## Applied ML and Systems
+
+**[floorline](https://github.com/aksingh1608/floorline)** · MIT<br>
+Open source analytics and ML for warehouse and fulfilment centre operations. Takes data in, explores and cleans it, trains and explains models with XGBoost, SHAP and K-means. Connectors for PostgreSQL, Snowflake, Neo4j and TigerGraph. React, FastAPI, Google Cloud.
+
+**[SpotZero](https://github.com/aksingh1608/SpotZero)** · MIT<br>
+Few-shot visual defect inspection for factories. Learns a defect class from about 20 images with three swappable backends (PatchCore-light, anomalib PatchCore, YOLOv8). Runs on site on NVIDIA Jetson with ONNX and TensorRT, so no image leaves the building.
+
+**[Dragoman](https://github.com/aksingh1608/Dragoman)**<br>
+An offline bilingual speech translator, German and English, both ways. Built for a warehouse counter with no reliable internet. Runs on Termux on an aarch64 Android phone or a Linux laptop, with whisper.cpp for speech and a local llama server for translation, joined by a small FastAPI bridge. No cloud, no API keys.
+
+**[AI-Interviewer](https://github.com/aksingh1608/AI-Interviewer)** · MIT<br>
+A voice based technical interviewer. A candidate drops in a GitHub profile, has a live spoken conversation with an interviewer that already knows their background, and gets an instant score with feedback. TypeScript.
+
+**[Purser](https://github.com/purser-sh/purser)** · Apache 2.0<br>
+A local console that meters, caps and audits coding agents in one place. An append only hash chained token ledger, a budget governor with warn, prompt or hard stop, and a tamper evident audit log you can verify from the CLI. Works with Claude Code, Codex, Cursor CLI, Gemini CLI, Ollama and OpenAI compatible endpoints. Bound to loopback.
+
+**[jobtrawl](https://github.com/aksingh1608/jobtrawl)** · MIT<br>
+A job scraper that finds its own sources. Discovers research and student assistant postings across Germany and EU remote, scores them, and emails a ranked Excel sheet every morning. Python and Crawl4AI.
 
 ---
 
 ## Also on here
 
-[PropertyAI](https://github.com/aksingh1608/PropertyAI) for property price prediction · [credit card default modelling](https://github.com/aksingh1608/Predictive-Modelling-for-Credit-Card-Default-Using-Machine-Learning_IAI) · [microduck](https://github.com/aksingh1608/microduck), a tiny biped duck robot I am working through in Rust
+[PropertyAI](https://github.com/aksingh1608/PropertyAI), property price prediction and analytics · [credit card default modelling](https://github.com/aksingh1608/Predictive-Modelling-for-Credit-Card-Default-Using-Machine-Learning_IAI) · [fieldlens-sem2](https://github.com/aksingh1608/fieldlens-sem2)
 
 ---
 
 ## Stack
 
-**Core**
+**Machine learning**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-
-**AI and data**
-
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 
 **Robotics**
 
 ![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![MuJoCo](https://img.shields.io/badge/MuJoCo-1A73E8?style=for-the-badge)
+![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=for-the-badge)
+![Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
 
-**Tooling**
+**Languages and systems**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**MLOps**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
 ---
 
@@ -117,16 +142,10 @@ The teaching material for my live robotics course. Python fundamentals through O
 
 ## Now
 
-- Getting Dragoman stable on device and usable by someone other than me
-- Shipping Purser to more agent users
-- Adding an "Ask AK" voice and chat bot to my site
-- Teaching a live robotics course that takes students from Python to humanoid simulation
-
----
-
-## Also
-
-Two IEEE ICEECT 2024 papers on health monitoring and billing automation, plus a forecasting paper under submission. Full list on [Google Scholar](https://scholar.google.com/citations?user=IHw9I1cAAAAJ&hl=en) and [ORCID](https://orcid.org/0009-0003-8791-1869).
+- Building NeuroPrism and preparing the code release
+- Printing and wiring Kiko at Barycenter Lab
+- Finishing the KKT forecast combination paper
+- Training RL policies for robot control in ROS 2 and MuJoCo for my thesis
 
 ---
 
