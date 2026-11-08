@@ -19,12 +19,15 @@ Physical AI is my field. Brain health at home is where I test it.
 
 ## About
 
-- MSc Artificial Intelligence, Berlin School of Business and Innovation. Thesis on reinforcement learning for robot motion and control in ROS 2 and MuJoCo, supervised by Dr. Fahmid Al Farid
+I research and build AI that works in the real world: robots that act safely around people, and models that read brain health signals at home.
+
+- MSc Artificial Intelligence, Berlin School of Business and Innovation. Thesis on reinforcement learning for robot motion and control in ROS 2 and MuJoCo
+- Supervised by Dr. Fahmid Al Farid on AI and computer vision, and by Dr. Syed Arslan Abbas Rizvi on robotics, mechatronics and control
 - AI and Robotics Researcher at Barycenter Lab, Berlin, where I build Kiko, a home companion robot, end to end
-- Lead of NeuroPrism, an explainable brain health model built on EEG, facial behaviour, speech and text
+- Lead of NeuroPrism, an explainable brain health model built on EEG, facial behaviour, speech and text, and of NeuroPrism Diary, the app that collects its data
 - Three years in production machine learning and LLM systems before the MSc
 - Two IEEE papers in 2024, one as first author on home health monitoring for early stroke prediction
-- Based in Berlin, Germany. Full time from February 2027
+- Based in Berlin, Germany. Open to research positions (PhD, research assistant) and research engineering roles. Part time now, full time from February 2027
 
 ---
 
