@@ -36,9 +36,6 @@ A companion robot that lives with its owner. It knows who its owner is, follows 
 **[Apex](https://github.com/aksingh1608/Apex)**<br>
 An interactive PyBullet environment with object semantics, and a goal driven autonomous racing robot with live monitoring in ROS 2.
 
-**[microduck](https://github.com/aksingh1608/microduck)**<br>
-A tiny biped duck robot, written in Rust.
-
 **[turtlebot3-beacon](https://github.com/aksingh1608/turtlebot3-beacon)**<br>
 ROS 2 work on the TurtleBot3 platform.
 
