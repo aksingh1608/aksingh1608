@@ -27,7 +27,7 @@ I research and build AI that works in the real world: robots that act safely aro
 - Lead of NeuroPrism, an explainable brain health model built on EEG, facial behaviour, speech and text, and of NeuroPrism Diary, the app that collects its data
 - Three years in production machine learning and LLM systems before the MSc
 - Two IEEE papers in 2024, one as first author on home health monitoring for early stroke prediction
-- Based in Berlin, Germany. Open to research positions (PhD, research assistant) and research engineering roles. Part time now, full time from February 2027
+- Based in Berlin, Germany. Open to research positions (PhD, research assistant) and research engineering roles.
 
 ---
 
