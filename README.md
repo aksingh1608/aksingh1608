@@ -49,6 +49,9 @@ ROS 2 work on the TurtleBot3 platform.
 **NeuroPrism: Explainable Brain Health AI** · in progress, open source soon<br>
 A multimodal framework that reads EEG, facial behaviour, speech and interview text to find markers of depression, ADHD and related conditions across five public clinical datasets. An EEG transformer pretrained on 26,000 plus clinical recordings and fine tuned on 1,274 subjects. A grounded language model turns feature attributions into plain language clinical reports. Research project, not a medical device.
 
+**NeuroPrism Diary** · Flutter · in build<br>
+The data side of NeuroPrism. A privacy first app for two minutes a day: a voice note, a text check in and a mood score, with PHQ-9 and GAD-7 questionnaires and optional resting EEG from a Muse 2 headband (4 channels, 256 Hz, EDF). Voice is processed on the phone and only features leave the device. No name, no email, one tap deletion. Each person is compared with their own 14 day baseline, not with other people.
+
 **Home stroke monitoring** · IEEE ICEECT 2024, first author<br>
 A home system that flags early stroke risk from continuous body signals. [Paper](https://ieeexplore.ieee.org/document/10739284).
 
